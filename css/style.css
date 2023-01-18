@@ -640,8 +640,7 @@ button:hover {
   border-bottom: 3px solid #e1d9bd;  
 }
 
-.feedback-content {
-  box-sizing: ;  
+.feedback-content {    
   padding: 0 29px 0 23px;
   font-size: 13px;  
 }
