@@ -666,9 +666,7 @@ button:hover {
   padding-left: 10px;
   padding-right: 25px;  
   border: none;
-  background-color: #f4f7f6;  
-  -webkit-appearance: none;
-  -moz-appearance: none;  
+  background-color: #f4f7f6;   
   background-image: url("/svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 5px center;
