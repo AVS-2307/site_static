@@ -1,0 +1,131 @@
+/*.header,
+.trends,
+.content, 
+.shop, 
+.main-footer {
+    display: none;
+} */
+
+@media (max-width: 1250px) {
+
+
+/* HEADER */
+
+    .container-wide {
+        width: 90%;
+    }
+
+    .header {
+        width: 100vw;    
+        height: 392px;
+        margin-bottom: 50px;     
+        background-image: url("../img/banner-bg-tablet.jpg");
+      }
+
+    .logo {
+        width: 179px;
+        height: 41px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .title-h1 {
+        font-size: 40px;
+        margin-top: 45px;
+        line-height: 1.22;
+    }
+
+
+/* TRENDS */ 
+
+    .title-h2 {
+        font-size: 18px;
+        line-height: 1.55;           
+    }
+
+    .title-h2::after { 
+        left: 46%;
+    }
+
+    .trend {
+        width: 49%;
+    }
+
+    .trend-picture img {        
+        width: 100%;         
+    }
+
+     /* CONTENT */
+
+    .content {
+        padding: 50px 32px 0 35px;
+    }
+
+    .post {
+        flex-direction: column;
+        padding-bottom: 41px;
+    }
+
+    .post-picture {
+        margin-bottom: 15px;
+    }
+
+    .post-picture img {        
+        width: 100%;         
+    }
+
+    .post-frame {
+        margin-left: 0;        
+        padding-bottom: 22px;
+        border-bottom: 2px solid #eeeeee;
+    }
+
+    .frame-category {
+        margin-bottom: 15px;
+    }
+
+    .date-author {
+        padding-top: 38px;
+    }
+
+    .post-text {
+        padding-top: 37px;  
+      }
+
+/* SHOP */
+
+    .shop {
+        padding: 0 32px 0 35px;
+    }
+
+    .shop-articles {
+        padding-right: 0;
+    }
+
+    .shop-item__title {
+        font-size: 17px;
+    }
+
+/* FOOTER */
+
+    .footer {
+        width: 100vw;
+        margin: 32px 0 43px 0;
+    }
+
+    .footer-item {
+        width: 20px;
+        height: 20px;
+    }
+
+    .copyrights {
+        margin-bottom: 37px;
+    }
+
+}
