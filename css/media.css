@@ -1,7 +1,15 @@
+@media (min-width: 1200px) {
+    .tablet-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+}
 
 
-
-@media (min-width: 768px) and (max-width: 1133px) {
+@media (min-width: 768px) and (max-width: 1200px) {
 
 
     /* HEADER */
@@ -99,6 +107,14 @@
 
     /* SHOP */
 
+    .desktop-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
     .shop-item {
         width: 49%;
     }
@@ -158,10 +174,9 @@
     .logo {
         width: 269px;
         height: 61px;
-        margin-left: 0;
         position: absolute;
-        right: 12%;
-        top: 36%;
+        top: 38%;
+        right: 14%;
     }
 
     .nav {
@@ -177,8 +192,8 @@
         font-size: 26px;
         line-height: 1.384;
         position: absolute;
-        right: 10%;
-        top: 50%;
+        top: 51%;
+        right: 11%;
     }
 
 
@@ -338,6 +353,14 @@
     }
 
     /* SHOP */
+
+    .desktop-img {
+        display: none;
+    }
+
+    .tablet-img {
+        display: none;
+    }
 
     .shop {
         margin-bottom: 42px;
