@@ -54,7 +54,7 @@ body{
   height: 3px;
   background-color: #e1d9bd;
   position: absolute;
-  left: 50%;
+  left: 48%;
   bottom: 10%;   
 }
 
@@ -62,6 +62,7 @@ body{
   font-size: 14px;
   color: #0f0d0e;
   line-height: 57%;
+  margin: 0 auto;
   position: relative; 
   text-transform: uppercase;
 }
@@ -99,6 +100,10 @@ body{
     z-index: 0;
   }
 
+.nav-wrapper {
+  margin-bottom: 69px;
+}
+
 .header:after {
   position: absolute;
   content: '';
@@ -120,7 +125,7 @@ body{
 .nav ul {
   list-style-type: none;    
   display: flex;
-  column-gap: 34px;
+  column-gap: 38px;
 }
 
 .nav a {   
@@ -198,7 +203,8 @@ body{
 }
 
 .title-h1 {
-  margin-top: 70px;
+  width: 686px;
+  margin: 0 auto;
   font-size: 45px;
   color: #ffffff;
   text-align: center;
@@ -296,7 +302,8 @@ body{
   max-width: 1200px;
   margin: 0 auto;
   padding: 73px 15px 0 15px;
-  display: flex;
+  display: flex;  
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -383,8 +390,7 @@ body{
 }
 
 .sidebar-title {
-  margin-right: -38px;
-  margin-top: -20px;   
+  margin-right: -38px;   
   text-align: center;
 }
 
@@ -415,7 +421,6 @@ body{
   text-transform: uppercase;
 }
 
-
 .search {
   width: 270px;
   margin-top: 55px;
@@ -423,8 +428,7 @@ body{
   box-sizing: border-box;
   font-size: 13px;
   position: relative;  
-}  
-
+} 
 
 input, button, textarea {
   border: none;
@@ -488,8 +492,7 @@ button:hover {
 }
 
 .tags-list {
-  margin-bottom: 79px;
-  
+  margin-bottom: 79px;  
 }
 
 .tags {
@@ -533,33 +536,35 @@ button:hover {
   color: #b59f5b;  
 }
 
-/* Shop */
+/* SHOP */
 
-.shop-articles {
-  max-width: 1170px;
-  padding-right: 28px;  
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.shop {
+  margin-bottom: 64px;
 }
 
-.shop-item {
-  position: relative;  
+.shop-articles {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .shop-item__picture {
-  padding: 15px 0 0 23px;    
+  position: relative;  
+  right: -7%;
+  top: 8%;    
 }
 
 .shop-item__content {
-  width: 300px;
-  height: 211px;
-  padding: 50px 22px 0 18px;
-  box-sizing: content-box;
-  position: relative;
+  max-width: 345px;
+  padding: 50px 26px 38px 11px;
+  /* box-sizing: border-box; */
+  /* position: relative; */
   border: 3px solid #d3c59d;
-  bottom: 33px;
+  position: relative;
+  z-index: 1;
 }
 
 .shop-item__title {
