@@ -6,10 +6,15 @@
     .mobile-img {
         display: none;
     }
+
+    input {
+        width: 90vw;
+    }
 }
 
 
 @media (min-width: 768px) and (max-width: 1200px) {
+
 
 
     /* HEADER */
@@ -147,10 +152,19 @@
         margin-bottom: 37px;
     }
 
+    /* POPUP */
+
+    .popup-container {
+        width: 25vw; 
+    }
+
+    .popup {
+        z-index: 999;  
+    }
 }
 
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
 
     /* HEADER */
 
@@ -160,8 +174,7 @@
     
     .row {
         justify-content: flex-end;
-    }
-    
+    }    
 
     .header {
         width: 100vw;    
@@ -393,6 +406,16 @@
 
     .copyrights {
         margin-bottom: 37px;
+    }
+
+    /* POPUP */
+
+    .popup-container {
+        width: 90vw; 
+    }
+
+    .popup {
+        z-index: 999;  
     }
 
 }

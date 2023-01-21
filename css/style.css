@@ -430,7 +430,7 @@ body{
   position: relative;  
 } 
 
-input, button, textarea {
+input, button {
   border: none;
   outline: none;  
 }
@@ -675,7 +675,7 @@ button:hover {
   top: 0;
   background: #000;
   opacity: 0.6;
-  z-index: 0;
+  z-index: 2;
 }
 
 .popup {
@@ -684,7 +684,7 @@ button:hover {
   position: fixed;
   top: 5%;
   left: 5%;    
-  z-index: 1;
+  z-index: 3;
   opacity: 1;
 }
 
@@ -738,6 +738,8 @@ button:hover {
   padding-left: 10px;
   padding-right: 25px;  
   border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   background-color: #f4f7f6;   
   background-image: url("/svg/form-arrows.svg");
   background-repeat: no-repeat;
@@ -788,25 +790,7 @@ button:hover {
   flex-wrap: wrap;
 }
 
-.textarea {  
-  min-width: 330px;
-  min-height: 128px;
-  max-width: 330px;
-  max-height: 128px;
-  background-color: #f4f7f6;  
-}
 
-.textarea::placeholder {
-  padding-top: 14px;
-  padding-left: 53px;
-}
-
-.textarea:focus, .select:focus {
-  border-bottom: 2px solid #ebe7d7;
-  border-right: 2px solid #fbf9f5;  
-  outline: 0;
-  outline-offset: 0;  
-}
 
 .send-button {
   width: 100%;
