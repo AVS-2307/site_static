@@ -213,15 +213,17 @@ body{
 
 /* Trends */
 
+
 .trends__title {  
   text-align: center;
 }
 
 .trends-articles {
-  max-width: 1660px;    
+  width: 100vw;    
   display: flex;
   align-items: flex-start;  
   flex-wrap: wrap;
+  justify-content: space-between;
   column-gap: 5px;        
 }
 
