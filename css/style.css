@@ -366,9 +366,19 @@ body{
   z-index: 2;
 }
 
-.frame-title {  
-  font-size: 20px;   
-  text-transform: uppercase;  
+.frame-title {
+  margin: 0 auto;  
+  font-size: 20px;  
+  text-transform: uppercase;
+}
+
+.frame-title a {
+  text-decoration: none;
+  color: #0f0d0e;
+}
+
+.frame-title a:hover {
+  color: #b59f5b;
 }
 
 .date-author {
@@ -565,7 +575,7 @@ button:hover {
   color: #0f0d0e;  
 }
 
-.category-item:hover {
+.categories a:hover {
   color: #b59f5b;
 }
 
