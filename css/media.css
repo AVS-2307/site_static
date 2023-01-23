@@ -7,9 +7,6 @@
         display: none;
     }
 
-    input {
-        width: 90vw;
-    }
 }
 
 
@@ -323,9 +320,6 @@
         width: 90vw;
     }
 
-    input {
-        width: 90vw;
-    }
 
     .subscribe {
         width: 90vw;
