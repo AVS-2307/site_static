@@ -57,7 +57,7 @@ body{
   bottom: 10%;   
 }
 
-.title-h3 {
+.title-h4 {
   font-size: 14px;
   color: #0f0d0e;
   line-height: 57%;
@@ -66,7 +66,7 @@ body{
   text-transform: uppercase;
 }
 
-.title-h3::after {
+.title-h4::after {
   content: "";
   display: block;  
   width: 65px;
@@ -259,20 +259,21 @@ body{
   right: 5%;
   bottom: 5%;
   padding: 39px 30px 32px 35px;
-  border: 3px solid #b59f5b; 
-  font-size: 20px;  
-  text-transform: uppercase;
-  color:#ffffff;   
+  border: 3px solid #b59f5b;  
   position: absolute;  
   z-index: 2; 
 }
 
-.trend-content__title {
+.trend-content__title a {
   padding-top: 4px;  
   line-height: 24px;
+  font-size: 20px;
+  text-decoration: none; 
+  text-transform: uppercase;
+  color:#ffffff;  
 }
 
-.trend-content__title:hover {
+.trend-content__title a:hover {
   color: #b59f5b;
 }
 
