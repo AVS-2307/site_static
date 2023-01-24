@@ -577,6 +577,7 @@ button:hover {
 
 .categories a:hover {
   color: #b59f5b;
+  
 }
 
 .category-quantity-index {
@@ -671,11 +672,15 @@ button:hover {
 	content: ' \20BD';
 }
 
-.shop-item__button {
+.shop-item__link a {
   width: 138px;
   height: 48px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 14px;
   font-weight: 700;
+  text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #b59f5b; 
