@@ -707,13 +707,19 @@ button:hover {
   background-color: #f4f7f6;   
 }
 
-.social-logo {
+.footer ul {
+  list-style-type: none;    
+  display: flex;
+  column-gap: 38px;
+}
+
+.footer a { 
   width: 20px;
   height: 20px;
   
 }
 
-.copyrights {
+.footer-copyrights {
   padding: 9px 0 0 12px;
   margin-bottom: 44px;
   font-size: 12px;
