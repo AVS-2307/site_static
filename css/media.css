@@ -1,4 +1,11 @@
-@media (min-width: 1200px) {
+.header,
+.trends,
+.content
+/*.shop,*/
+/*.main-footer */ {
+    display: none;
+}
+@media (min-width: 1280px) {
     .tablet-img {
         display: none;
     }
@@ -9,9 +16,9 @@
 
 }
 
+/* TABLE ADAPTATION */
 
-@media (min-width: 768px) and (max-width: 1200px) {
-
+@media (min-width: 768px) and (max-width: 1280px) {
 
 
     /* HEADER */
@@ -63,10 +70,13 @@
         left: 46%;
     }
 
-    .trend-picture img {        
-        width: 100%;         
+    .trend-picture   {
+        width: 100%;
     }
 
+    .trend-picture img {
+        width: 100%;
+    }
      /* CONTENT */
 
     .content {
@@ -76,7 +86,10 @@
 
     .post {
         flex-direction: column;
-        padding-bottom: 41px;
+    }
+
+    .postlist {
+        width: 49%;
     }
 
     .post-picture {
@@ -88,24 +101,13 @@
     }
 
     .post-frame {
-        margin-left: 0;        
-        padding-bottom: 22px;
+        margin-left: 0; 
         border-bottom: 2px solid #eeeeee;
     }
 
     .frame-category {
         margin-bottom: 15px;
     }
-
-    .date-author {
-        padding-top: 38px;
-    }
-
-    .post-text {
-        padding-top: 37px;  
-      }
-
-    
 
     /* SHOP */
 
@@ -121,12 +123,8 @@
         width: 49%;
     }
 
-    .shop-articles {
-        padding: 0px 15px;
-    }    
-
     .shop-item__picture {        
-        right: -3%;        
+        right: -5%;        
     }    
 
     .shop-item__title {
@@ -136,8 +134,7 @@
     /* FOOTER */
 
     .footer {
-        width: 100vw;
-        margin: 32px 0 43px 0;
+        width: 100%;
     }
 
     .footer-item {
@@ -159,6 +156,9 @@
         z-index: 999;  
     }
 }
+
+
+/* MOBILE ADAPTATION */
 
 
 @media (max-width: 768px) {
@@ -214,6 +214,14 @@
         margin-top: 1px;
     }
 
+    .trend-picture   {
+        width: 100%;
+    }
+
+    .trend-picture img {
+        width: 100%;
+    }
+
     .title-h2 {
         font-size: 16px;                        
     }
@@ -222,13 +230,11 @@
         left: 42%;
     }
 
-    .trend-picture img {        
-        width: 100%;         
-    }
-
     .trend-content__title {
         font-size: 16px;        
     }
+
+
 
 
     /* CONTENT */
@@ -239,12 +245,12 @@
     }
 
     .postlist {
+        width: 49%;
         margin-bottom: 18px;
     }
 
     .post {
         flex-direction: column;
-        padding-bottom: 24px;
     }
 
     .post-picture {
@@ -269,17 +275,13 @@
         font-size: 16px;
     }
 
-    .date-author {
-        padding-top: 24px;
-    }
-
     .date-author__author {
         display: none;
     }
 
     .post-text {
         font-size: 14px;
-        padding-top: 20px;  
+        padding-bottom: 23px;
       }
 
     .sidebar {
@@ -383,14 +385,18 @@
         font-size: 17px;
     }
 
+    .shop-item__picture {        
+        right: -4%;        
+    }
+
     /* FOOTER */
 
     .main-footer {
         padding: 0;
     }
     .footer {
-        width: 100vw;
-        margin: 32px 0 43px 0;
+        width: 100%;
+        padding: 0 15px;
     }
 
     .footer-item {

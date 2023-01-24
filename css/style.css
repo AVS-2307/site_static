@@ -239,10 +239,9 @@ body{
 } */
 
 
-.trend-picture {
+.trend-picture{
   width: 411px;
-  position: relative;
-  
+  position: relative;  
 }
 
 .trend-picture::before {
@@ -484,7 +483,7 @@ input {
   top: 0;
   right: 0;
   background: #b59f5b;
-  background-image: url("/svg/search.svg");
+  background-image: url("../svg/search.svg");
   background-size: 40%;
   background-position: center;
   background-repeat: no-repeat;  
@@ -594,7 +593,7 @@ button:hover {
 /* SHOP */
 
 .shop {
-  margin-bottom: 64px;
+  padding: 70px 0;
 }
 
 .shop-articles {
@@ -609,7 +608,7 @@ button:hover {
 .shop-item {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: stretch;  
 }
 
 .shop-item__picture {
@@ -713,7 +712,7 @@ button:hover {
 .footer {         
   
   height: 84px;
-  margin: 32px 0 62px 0;
+  margin-bottom: 62px;
   display: flex;
   align-items: center;
   justify-content: center;
