@@ -241,7 +241,9 @@ body{
 
 
 .trend-picture {
+  width: 411px;
   position: relative;
+  
 }
 
 .trend-picture::before {
@@ -325,6 +327,10 @@ body{
 
 .post:last-child {
   padding-bottom: 57px;
+}
+
+post-picture {
+  width: 381px;
 }
 
 .post-text {
@@ -423,6 +429,10 @@ body{
   margin-bottom: 19px;
   display: flex;
   justify-content: flex-start;  
+}
+
+.latest-post__picture {
+  width: 70px;
 }
 
 .latest-post__text {
@@ -603,6 +613,7 @@ button:hover {
 }
 
 .shop-item__picture {
+  width: 300px;
   position: relative;  
   right: -7%;
   top: 8%;    
