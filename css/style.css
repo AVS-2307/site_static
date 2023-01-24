@@ -699,7 +699,8 @@ button:hover {
 
 .main-footer {
   max-width: 1200px;   
-  margin: 0 auto;  
+  margin: 0 auto;
+  padding-bottom: 44px;  
 }
 
 .footer {         
@@ -727,9 +728,7 @@ button:hover {
   
 }
 
-.footer-copyrights {
-  padding: 9px 0 0 12px;
-  margin-bottom: 44px;
+.footer-copyrights {  
   font-size: 12px;
   text-align: center;   
 }
