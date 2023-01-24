@@ -603,7 +603,13 @@ button:hover {
   padding: 0 15px;
   display: flex;  
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between;  
+}
+
+.shop-item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .shop-item__picture {
@@ -621,6 +627,7 @@ button:hover {
   border: 3px solid #d3c59d;
   position: relative;
   z-index: 1;
+  flex-grow: 1;
 }
 
 .shop-item__title {
