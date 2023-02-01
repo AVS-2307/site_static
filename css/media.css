@@ -1,10 +1,10 @@
-.header,
+/*.header,
 .trends,
 .content
-/*.shop,*/
-/*.main-footer */ {
+/*.shop,
+.main-footer  {
     display: none;
-}
+}*/
 @media (min-width: 1280px) {
     .tablet-img {
         display: none;
