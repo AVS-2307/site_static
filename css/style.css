@@ -608,23 +608,25 @@ button:hover {
 .shop-item {
   display: flex;
   flex-direction: column;
-  align-items: stretch;  
+  align-items: center;
+  
+}
+
+.shop-item__title {
+  margin: 0 auto;
 }
 
 .shop-item__picture {
   width: 300px;
-  position: relative;  
-  right: -7%;
-  top: 8%;     
+  position: relative; 
+  top: 35px;
+  
 }
 
 .shop-item__content {
   max-width: 345px;
-  padding: 50px 26px 38px 11px;
-  /* box-sizing: border-box; */
-  /* position: relative; */
-  border: 3px solid #d3c59d;
-  position: relative;
+  padding: 50px 13px 38px 20px;
+  border: 3px solid #d3c59d; 
   z-index: 1;
   flex-grow: 1;
 }
