@@ -73,8 +73,8 @@
      /* CONTENT */
 
     .content {
-        width: 90%;        
-        padding: 50px 32px 0 35px;
+        max-width: 100vw;        
+     
     }
 
     .post {
@@ -82,7 +82,7 @@
     }
 
     .postlist {
-        width: 49%;
+        max-width: 49%;
     }
 
     .post-picture {
@@ -229,12 +229,11 @@
     /* CONTENT */
 
     .content {
-        width: 90%;        
-        padding: 0;
+        width: 100vw;       
     }
 
     .postlist {
-        width: 49%;
+        max-width: 90%;
         margin-bottom: 18px;
     }
 
@@ -274,8 +273,8 @@
       }
 
     .sidebar {
-
-        padding-left: 0;
+        max-width: 100vw;
+        
     }
 
     .sidebar-title {
@@ -299,13 +298,6 @@
     .post-list {
         padding: 25px 0 0 0;
     }
-
-    .search {
-
-        margin-left: 0;        
-    }
-
-
 
 
     .subscribe {
